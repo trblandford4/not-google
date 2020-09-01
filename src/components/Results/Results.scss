@@ -1,0 +1,36 @@
+.searchPage__results {
+  max-width: 650px;
+  margin: 20px 0 100px 240px;
+
+  .searchPage__resultsCount {
+    color: #70757a;
+    font-size: 14px;
+  }
+
+  .searchPage__result {
+    margin: 40px 0;
+
+    .searchPage__resultImage {
+      object-fit: contain;
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
+    }
+
+    .searchPage__resultTitle {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      & > h2 {
+        font-weight: 500;
+      }
+    }
+
+    .searchPage__resultSnippet {
+      margin-top: 10px;
+    }
+  }
+}
